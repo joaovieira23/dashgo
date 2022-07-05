@@ -16,7 +16,7 @@ export function SearchBox() {
 
     // searchInputRef.current.focus() (Imperativo)
     
-    console.log(searchInputRef.current.value)
+    // console.log(searchInputRef.current.value)
 
     return (
         <Flex
