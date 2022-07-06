@@ -39,6 +39,9 @@ export default function UserList() {
             .then(data => console.log(data))
     }, []);
 
+    console.log('error', error);
+    console.log('data', data)
+
     return (
         <Box>
             <Header />
